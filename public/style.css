@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#48649F,#3B5998);
+    border-bottom: 1px solid #253a69;
+}
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top:15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+}
+.signup{
+    display: flex;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 58%;
+    top: 15px;
+}
+.email, .password{
+    padding-left: 10px;
+}
+.font{
+    font-size: 10px;
+    padding-bottom: 4px;
+    color: white;
+}
+.input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.login{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background: #2d5bba;
+    border: 1px solid #224285;
+
+}
+.login:hover{
+    background: #3B5998;
+}
+section{
+    height: 614px;
+    width: 100%;
+    top: 800px;
+    background: linear-gradient(#FDFDFE,#EFF1F6,#E3E6F0,#D6DBEA);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.body{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+.like-font{
+    font-family: Arial;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.f1{
+    color: #083987;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.signup-body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 57%;
+}
+.account{
+    font-size: 40px;
+    margin: 25px 0;
+
+}
+.S-form input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 18px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.last{
+    margin-left: 15px;
+}
+.signup-body .S-form .email2,
+.signup-body .S-form .password,
+.signup-body .S-form .password2{
+    margin-top: 20px;
+    width: 410px;
+}
+.signup-body .S-form .bday{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.signup-body .S-form input[type="radio"]{
+    height: 15px;
+    margin-top: 30px;
+    margin-left: -50px;
+}
+.signup-body .S-form input[value="female"]{
+    margin-left: -100px;
+}
+.signup-body .S-form .font{
+    color: black;
+    margin-left: 57px;
+    margin-top: -17px;
+}
+.signup-body .S-form .font2{
+    margin-left: 150px;
+}
+.signup-body .S-form .Sup{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #006117;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#6fad5a,#66a150,#60974C);
+}
+.signup-body .S-form .Sup:hover{
+    background: linear-gradient(#74b85e);
+}
